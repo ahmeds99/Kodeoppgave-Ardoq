@@ -10,7 +10,7 @@ En mulig løsning kunne vært å sortere listen, og dermed ta maksimum av summen
 eller det største tallet multiplisert med de to laveste, men dette er en mindre effektiv løsning 
 ettersom sortering av en liste kjører i O(n log n).
 
-En bedre løsning er den som er skrevet under, som kjører i lineær tid (O(n)) ettersom vi iterer listen, kun
+En bedre løsning er den som er skrevet under, som kjører i lineær tid (O(n)) ettersom vi itererer listen, kun
 en gang, med følgende konstanttidsoperasjoner. Her unngår vi kjøretiden som følger av å sortere listen, 
 ettersom vi - for hver iterasjon - oppdaterer variablene som trengs for å beregne det største produktet. 
 """
